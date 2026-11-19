@@ -40,6 +40,9 @@ A CIT-U community platform connecting student-led initiatives across organizatio
 - Administrators and authorized representatives manage permitted submissions, publications, event information, and impact records in a dedicated workspace.
 - Membership applications redirect to an external application destination; event registration, feedback, and partnership inquiries use integrated forms or confirmed destinations.
 - Local development uses simulated roles. Real authentication and authorization belong to the explicitly approved backend integration phase.
+- Homepage priority: discover initiatives and join an activity.
+- Organization representatives manage only their own organization's submissions. The confirmed review flow is draft -> submitted -> changes requested or approved, with resubmission. SIC administrators approve public records and manage SIC publications.
+- Event registration uses per-event external links, with a clearly labeled local demo destination until real links exist. Membership remains an external redirect.
 
 ## Capabilities and Constraints
 
@@ -59,11 +62,13 @@ Prioritize an engaging public website with clear navigation and storytelling, su
 
 Development sequence: sitemap, user flows, wireframes, and design system, followed by a complete local frontend prototype. Validate locally before requesting approval for Supabase integration. Do not deploy during these stages.
 
-Open decisions: exact permissions per role; submission statuses and review rules; impact metric definitions and counting rules; final sitemap; production form destinations; publication and project schemas; and verified public content. Decide these during planning without inventing organizational policy.
+Open decisions: detailed permissions beyond the confirmed organization ownership and SIC review roles; edit-after-approval behavior; impact metric definitions and counting rules; final sitemap; production form destinations; publication and project schemas; and verified public content. Decide these during planning without inventing organizational policy.
 
 ## Brand Commitments
 
 Strictly follow `ASSETS/SIC BRAND BIBLE.pdf` and the supplied logo assets.
+
+Use the actual `ASSETS/SIC-LOGO-WHITE.png` for SIC branding, preserving its proportions and artwork. Visual inspection confirms this is a full-color logo on a white background despite its filename; retain a white logo area. Generated preview marks are placeholders and must not be recreated or shipped as the SIC logo.
 
 - Name: Social Impact Catalyst (SIC) - CIT-U Chapter.
 - Primary Azure: #1FA7E3; Light Azure: #5ABDE7; Accent Orange: #DE7C40; Neutral Grey: #787878.
