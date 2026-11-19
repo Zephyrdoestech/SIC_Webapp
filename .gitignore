@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.local
+.impeccable/config.local.json
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/review/
+.gemini/
+tmp/
